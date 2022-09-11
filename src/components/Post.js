@@ -13,7 +13,7 @@ export default function Posts(props) {
     } else {
         img = props.data.url + '.jpeg'
     }
-    console.log(img)
+
     return (
 
         <View style={styles.wrap} >
